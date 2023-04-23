@@ -43,7 +43,7 @@ if(strlen($_SESSION['id']==0)) {
 						<section id="page-title">
 							<div class="row">
 								<div class="col-sm-8">
-									<h1 class="mainTitle">Dietician | Dashboard</h1>
+									<h1 class="mainTitle">PHYSIODIET | Dashboard</h1>
 																	</div>
 								<ol class="breadcrumb">
 									<li>

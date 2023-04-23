@@ -66,7 +66,7 @@ if(strlen($_SESSION['id']==0)) {
 										<thead>
 											<tr>
 												<th class="center">#</th>
-												<th class="hidden-xs">Doctor Name</th>
+												<th class="hidden-xs">PhysioDiet Name</th>
 												<th>Patient Name</th>
 												<th>Specialization</th>
 												<th>Consultancy Fee</th>

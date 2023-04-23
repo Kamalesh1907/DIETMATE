@@ -82,7 +82,7 @@ $num_rows = mysqli_num_rows($result);
 									<div class="panel panel-white no-radius text-center">
 										<div class="panel-body">
 											<span class="fa-stack fa-2x"> <i class="fa fa-square fa-stack-2x text-primary"></i> <i class="fa fa-users fa-stack-1x fa-inverse"></i> </span>
-											<h2 class="StepTitle">Manage Doctors</h2>
+											<h2 class="StepTitle">Manage PhysioDiet</h2>
 										
 											<p class="cl-effect-1">
 												<a href="manage-doctors.php">
@@ -90,7 +90,7 @@ $num_rows = mysqli_num_rows($result);
 $num_rows1 = mysqli_num_rows($result1);
 {
 ?>
-											Total Doctors :<?php echo htmlentities($num_rows1);  } ?>		
+											Total PhysioDiet :<?php echo htmlentities($num_rows1);  } ?>		
 												</a>
 												
 											</p>

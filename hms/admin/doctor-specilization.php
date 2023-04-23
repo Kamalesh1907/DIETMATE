@@ -86,7 +86,7 @@ $_SESSION['msg']="data deleted !!";
 															<label for="exampleInputEmail1">
 																Medical Professionals
 															</label>
-							<input type="text" name="doctorspecilization" class="form-control"  placeholder="Enter Doctor Specialization">
+							<input type="text" name="doctorspecilization" class="form-control"  placeholder="Enter Specialization">
 														</div>
 												
 														
