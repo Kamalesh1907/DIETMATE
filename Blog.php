@@ -28,7 +28,7 @@ echo "<script>window.location.href ='index.php'</script>";
 	<link rel="stylesheet" type="text/css" href="assets/css/blog.css" />
 </head>
 <style>
-    .body{
+    body{
         background-image: url("assets/blog/bg.jpg");
         background-size: cover;
     }
