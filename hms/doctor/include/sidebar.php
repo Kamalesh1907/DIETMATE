@@ -72,6 +72,32 @@
 									</div>
 								</a>
 							</li>
+							<li>
+								<a href="javascript:void(0)">
+									<div class="item-content">
+										<div class="item-media">
+											<i class="ti-user"></i>
+										</div>
+										<div class="item-inner">
+											<span class="title">Dietary Plan</span><i class="icon-arrow"></i>
+										</div>
+									</div>
+								</a>
+								<ul class="sub-menu">
+									
+									<li>
+										<a href="add-dietaryplan.php">
+											<span class="title"> Add Dietary Plan</span>
+										</a>
+									</li>
+									<li>
+										<a href="manage-dietaryplan.php">
+											<span class="title">Manage Dietary Plan</span>
+										</a>
+									</li>
+									
+								</ul>
+								</li>
 
 						</ul>
 						<!-- end: CORE FEATURES -->

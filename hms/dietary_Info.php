@@ -7,26 +7,28 @@ check_login();
 
 if(isset($_POST['submit']))
 {
-$userid=$_SESSION['id'];
-$name=$_POST['name'];
-$age=$_POST['age'];
-$gender=$_POST['gender'];
-$height=$_POST['height'];
-$weight=$_POST['weight'];
-$bmi=$_POST['bmi'];
-$activitylevel=$_POST['activitylevel'];
-$dietarypatterns=$_POST['dietarypatterns'];
-$calories=$_POST['calories'];
-$history=$_POST['history'];
-$medication=$_POST['medication'];
-$query=mysqli_query($con,"insert into appointment(doctorSpecialization,doctorId,userId,consultancyFees,appointmentDate,appointmentTime,userStatus,doctorStatus) values('$specilization','$doctorid','$userid','$fees','$appdate','$time','$userstatus','$docstatus')");
-	if($query)
-	{
-		echo "<script>alert('Your appointment successfully booked');</script>";
-	}
+    $userid=$_SESSION['id'];
+    $name=$_POST['name'];
+    $age=$_POST['age'];
+    $gender=$_POST['gender'];
+    $height=$_POST['height'];
+    $weight=$_POST['weight'];
+    $bmi=$_POST['bmi'];
+    $activitylevel=$_POST['activitylevel'];
+    $dietarypatterns=$_POST['dietarypatterns'];
+    $calories=$_POST['calories'];
+    $history=$_POST['history'];
+    $medication=$_POST['medication'];
+    $query=mysqli_query($con,"INSERT INTO `tbldietaryplan`(`userID`, `Name`, `Age`, `Gender`, `Height`, `Weight`, `BMI`, `Activity_Level`, `Dietary_Patterns`, `Calories`, `History`, `Medication`) values('$userid','$name','$age','$gender','$height','$weight','$bmi','$activitylevel','$dietarypatterns','$calories','$history','$medication')");
+    if($query)
+    {
+        echo "<script>alert('Your Customised Dietary Plan Successfully Created');</script>";
+		echo "<script>window.location.href ='dietaryplan.php'</script>";
+    }
 
 }
-?>
+?> 
+
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -313,10 +315,19 @@ function getfee(val) {
     
     var bmi = weight / ((height/100) * (height/100));
     
+    if (calories <= 1350) {
+      calories = 1200;
+    } else if (calories <= 1650) {
+      calories = 1500;
+    } else {
+      calories = 1800;
+    }
+    
     document.getElementById("calories").value = calories.toFixed(0);
     document.getElementById("bmi").value = bmi.toFixed(2);
   }
 }
+
 		</script>
 		<!-- end: JavaScript Event Handlers for this page -->
 		<!-- end: CLIP-TWO JAVASCRIPTS -->
