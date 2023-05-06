@@ -81,7 +81,9 @@ function getfee(val) {
 	</head>
 	<body>
 		<div id="app">		
-<?php include('include/sidebar.php');?>
+		<div style="position: fixed;">
+			<?php include('include/sidebar.php');?>
+			</div>
 			<div class="app-content">
 			
 						<?php include('include/header.php');?>

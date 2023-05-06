@@ -93,7 +93,7 @@ header("location:index.php");
 					</form>
 
 					<div class="copyright">
-					<span class="text-bold text-uppercase"> Hospital Management System</span>
+					<span class="text-bold text-uppercase"> DIETMATE</span>
 					</div>
 			
 				</div>
