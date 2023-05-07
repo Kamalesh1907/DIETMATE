@@ -59,7 +59,7 @@ html {
 }
 
 body {
-  color: #8e8e93;
+  color: #fcfcff;
   direction: ltr;
   overflow-x: hidden;
   height: 100%;
@@ -126,7 +126,7 @@ h3, h4, h5 {
 h1, h2, h3, h4, h5 {
   font-weight: 300;
   margin-top: 0;
-  color: #5b5b60;
+  color: #fcfffe;
 }
 .text-bold h1, h1.text-bold, h1 .text-bold, .text-bold h2, h2.text-bold, h2 .text-bold, .text-bold h3, h3.text-bold, h3 .text-bold, .text-bold h4, h4.text-bold, h4 .text-bold, .text-bold h5, h5.text-bold, h5 .text-bold {
   font-weight: 600;
@@ -141,7 +141,7 @@ h5.over-title {
   margin: 20px 0;
 }
 .mainTitle small {
-  color: #8e8e93;
+  color: #93938e;
   font-size: 17px;
   font-weight: 300;
   letter-spacing: 0;
