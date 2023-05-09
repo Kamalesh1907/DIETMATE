@@ -29,7 +29,7 @@ echo "<script>window.location.href ='index.php'</script>";
 </head>
 <style>
     body{
-        background-image: url("assets/blog/bg.jpg");
+       /* background-image: url("assets/blog/bg.jpg");*/
         background-size: cover;
     }
 </style>
